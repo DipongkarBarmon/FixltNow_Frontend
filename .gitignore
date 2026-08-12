@@ -1,0 +1,21 @@
+# Editor state
+.puku/
+.vercel/
+
+# Stray shell logs (cleanup artifacts from local dev runs)
+*.log
+backend-*.log
+dev-*.log
+install*.log
+build.log
+
+# Local backend fork (not tracked from this repo)
+FixltNow-Backend/
+
+# Generic ignores (also covered by fixitnow-frontend/.gitignore, but kept
+# here so the root repo stays clean if anything slips in)
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
